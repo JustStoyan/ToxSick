@@ -1,9 +1,18 @@
 const router = require('express').Router();
 
 
-router.get('/login', (req,res) => {
-    res.json({"message": "hello"})
+router.get('/register', (req, res) => {
+    res.json({ "username": "Petar" })
 })
+
+
+
+router.get('/login', (req, res) => {
+    res.json({ "username": "Stoyan" })
+});
+
+
+
 
 
 
