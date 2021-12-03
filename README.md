@@ -1,0 +1,2 @@
+# ToxSick
+A gaming website
