@@ -2,15 +2,12 @@ const config = {
 
     development: {
         PORT: 5000,
-        DB_URI: 'mongodb://localhost/db_toxsick',
-
-
+        DB_URI: 'mongodb+srv://toxsickadmin:123asd!%40%23@toxsickcluster.v3m7p.mongodb.net/test',
     },
 
     production: {
         PORT: 80,
-        DB_URI: 'Atlas link goes here',
-
+        DB_URI: 'mongodb+srv://toxsickadmin:123asd!%40%23@toxsickcluster.v3m7p.mongodb.net/test',
     }
 
 }
